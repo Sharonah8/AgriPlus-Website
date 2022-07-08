@@ -6,6 +6,10 @@
     margin: 0;
     box-shadow: border-box;
 }
+body{
+    margin: 0px 70px;
+}
+
 a{
     text-decoration: none;
 }
@@ -20,7 +24,7 @@ ul{
     align-items: center;
 }
 .navbar{
-    width: 100%;
+    width: 98%;
     display: flex;
     height: 5rem;
     padding:0 2rem;
@@ -92,10 +96,46 @@ ul{
     bottom: -50%;
 }
 
-.dash{
-    background: url(./assets/Images/image1.png);
-    background-color: blue;
+.dashboard{
+    background-image: url(./assets/Images/image1.png);
+    background-size: contain;
+    height: 60vh;
 }
+.dashboard p{
+    font-size: large;
+    padding: 4px;
+    margin-left: 40px;
+}
+.dashboard h1{
+    margin-left: 40px;
+}
+#buying{
+    padding: 0px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+#explore{
+    margin-top: -200px;
+    margin-left: 40px;
+}
+.exist-embedded-image img{
+    height: 300px;
+    width: 600px;
+    margin-left: 1000px;
+    margin-top: -300px;
+    
+}
+
+.exist{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.exist-image img{
+    height: 400px;
+    width: 600px;
+}
+
 
 
 
