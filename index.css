@@ -92,6 +92,15 @@ ul{
     bottom: -50%;
 }
 
+.dash{
+    background: url(./assets/Images/image1.png);
+    background-color: blue;
+}
+
+
+
+
+
 .footer-row{
     display: flex;
     flex-wrap: wrap;
