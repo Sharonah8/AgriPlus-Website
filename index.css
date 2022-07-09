@@ -267,7 +267,42 @@ hr{ /* this is the border */
     border-bottom: 0.2em solid red;
     margin-top: 10px;
 }
+.newest h1{
+    margin-left: 70px;
+    padding-bottom: 30px;
+}
+.newest{
+    margin-bottom: 150px;
+}
+.see-all{
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.see-all-link-active:after { /* this is the border */
+    content:"";
+    display:block;
+    width: 3em;
+    max-width:50%;
+    border-bottom: 0.2em solid red;
+    margin-top: 10px;
+}
 
+
+
+
+
+.read-more{
+    float: right;
+}
+.read-more-link-active:after { /* this is the border */
+    content:"";
+    display:block;
+    width: 3em;
+    max-width:50%;
+    border-bottom: 0.2em solid red;
+    margin-top: 10px;
+}
 
 
 
