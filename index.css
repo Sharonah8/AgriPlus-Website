@@ -305,9 +305,16 @@ hr{ /* this is the border */
     border-top: 0.1em solid gray;
 }
 
+
 .customers{
     height: 500px;
     width: 600px;
+    margin-bottom: 200px;
+}
+.customers-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
 }
 .row{
     display: flex;
@@ -329,6 +336,8 @@ hr{ /* this is the border */
 
 .read-more{
     float: right;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .read-more-link-active:after { /* this is the border */
     content:"";
@@ -344,7 +353,9 @@ hr{ /* this is the border */
 
 .footer-row {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    margin-top: 60px;
 }
 
 ul {
@@ -362,6 +373,7 @@ ul {
 
 .footer-row {
     background-color: black;
+    display: flex;
 }
 
 .footer-col {
