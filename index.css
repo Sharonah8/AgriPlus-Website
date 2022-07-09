@@ -215,6 +215,48 @@ hr{ /* this is the border */
 
 
 
+.popular{
+    margin-bottom: 70px;
+}
+.popular h1{
+    margin-left: 70px;
+    padding-bottom: 30px;
+}
+.popular-link-active:after { /* this is the border */
+    content:"";
+    display:block;
+    width: 3em;
+    max-width:50%;
+    border-bottom: 0.2em solid red;
+    margin-top: 10px;
+}
+.column {
+    float: left;
+    width: 22%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+.row {
+    margin: 0 -5px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.card img{
+    height: 200px;
+    width: 200px;
+}
+
+
 
 
 
