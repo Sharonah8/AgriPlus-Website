@@ -348,6 +348,15 @@ hr{ /* this is the border */
     margin-top: 10px;
 }
 
+.subscribe {
+    background-color: black;
+    padding: 70px 50px 70px 200px;
+    margin-bottom: 50px;
+}
+.subscribe p, h1{
+    color: white;
+}
+
 
 
 
