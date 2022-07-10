@@ -316,6 +316,9 @@ hr{ /* this is the border */
     display: flex;
     justify-content: space-between;
 }
+.column{
+    display: flex;
+}
 .row{
     display: flex;
     justify-content: space-around;
@@ -395,6 +398,11 @@ ul {
     background-color: black;
     padding: 70px 50px 70px 200px;
 }
+.footer h2{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 .container {
     background-color: black;
@@ -421,28 +429,29 @@ ul {
     background-color: black;
 }
 .fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 30px;
+    padding: 5px;
+    font-size: 20px;
+    width: 20px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    margin-top: 25px;
 }
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+    background: white;
+    color: black;
     height: 20px;
     width: 20px;
 }
  .fa-facebook {
-    background: #3B5998;
-    color: white;
+    background: white;
+    color: black;
     height: 20px;
     width: 20px;
 }
 .fa-instagram {
-    background: #125688;
-    color: white;
+    background: white;
+    color: black;
     height: 20px;
     width: 20px;
 }
