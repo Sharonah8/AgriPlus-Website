@@ -306,25 +306,22 @@ hr{ /* this is the border */
 }
 
 
+
+
 .customers{
-    height: 500px;
-    width: 600px;
     margin-bottom: 200px;
 }
 .customers-container{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+    
 }
 .column{
     display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 2vh;
 }
-.row{
-    display: flex;
-    justify-content: space-around;
-}
-.customers > card{
-    width: 500px;
+.customer > card{
+    height: 20px;
 }
 .checked {
     color: #ED661F;
@@ -359,7 +356,8 @@ hr{ /* this is the border */
 }
 .subscribe p{
     color: white;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 .subscribe h1{
     color: white;
@@ -396,12 +394,17 @@ ul {
 
 .footer {
     background-color: black;
-    padding: 70px 50px 70px 200px;
+    padding: 70px 50px 70px 100px;
 }
 .footer h2{
     color: white;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.footer h3{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
 }
 
 .container {
@@ -423,7 +426,8 @@ ul {
 .footer-col h1 {
 
     color: #f1f1f1;
-    padding: 5px;
+    padding: 2px;
+    margin-right: 5000px;
     font-size: xx-large;
     font-family: 'Oleo Script';
     background-color: black;
