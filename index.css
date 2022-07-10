@@ -351,10 +351,30 @@ hr{ /* this is the border */
 .subscribe {
     background-color: black;
     padding: 70px 50px 70px 200px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    text-align: center;
 }
-.subscribe p, h1{
+.subscribe p{
     color: white;
+    margin: 20px;
+}
+.subscribe h1{
+    color: white;
+    margin: 20px;
+}
+.email{
+    color: black;
+    height: 40px;
+    width: 500px;
+    font-size: 18px;
+}
+.subscribe-btn{
+    color: white;
+    background-color: #ED661F;
+    height: 45px;
+    width: 150px;
+    font-size: 18px;
+    margin-left: -10px;
 }
 
 
