@@ -446,6 +446,7 @@ hr{ /* this is the border */
     /* flex-wrap: wrap; */
     justify-content: space-around;
     margin-top: 60px;
+    height: 270px;
 }
 
 ul {
